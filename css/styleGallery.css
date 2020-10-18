@@ -66,7 +66,7 @@
 		float: top;
 	}
 	.mdesc {
-		padding-top: 60%;
+		padding-top: 80%;
 		padding-left: 0;
 		text-align: left;
 	}
@@ -74,7 +74,7 @@
 	.marrow_next {
 	width: 50%;
 	align-self: bottom;
-}
+	}
       }
 
 #m1, #m2, #m3, #m4, #m5, #m6, #m7, #m8, #m9 {

@@ -2,6 +2,29 @@
   font-size: 16px;
 }
 
+/* Media */
+
+@media (min-width: 150px) {
+  :root{
+    font-size: 6px;
+  }
+}
+@media (min-width: 780px) {
+  :root{
+    font-size: 9px;
+  }
+}
+@media (min-width: 990px) {
+  :root{
+    font-size: 12px;
+  }
+}
+@media (min-width: 1200px) {
+  :root{
+    font-size: 16px;
+  }
+}   
+
 body{
       font: 16px/1 Arial, Helvetica,sans-serif;
       padding:0;
@@ -30,7 +53,7 @@ body{
       background:#333;
       color:#ffffff;
       width:100%;
-      padding-top:30px;
+      padding-top:1.1rem;
       min-height:70px;
       border-bottom:#e8491d 3px solid;
       padding-bottom:20px;
@@ -47,7 +70,7 @@ body{
     header li{
       float:left;
       display:inline;
-      padding: 0 20px 0 20px;
+      padding: 0 1.25rem 0 1.25rem;
     }
     
     header .highlight, header .current a{
@@ -64,7 +87,7 @@ body{
     .page-banner{
       background-color: #333;
       color:#ccc;
-      padding: 40px 0 40px 0;
+      padding: 2.5rem 0 2.5rem 0;
       position: relative;
     }
 
@@ -80,24 +103,24 @@ body{
 
     .page-banner-title {
       opacity: 0.99;
-      margin-top:330px;
+      margin-top:20.6rem;
       position: center;
       text-align: center;
       width:100%;
-      padding:10px;
+      padding:0.625rem;
     }
 
     .page-banner-content {
       opacity: 0.99;
-      margin-top:50px;
-      margin-bottom:100px;
+      margin-top:3.125rem;
+      margin-bottom:6.25rem;
       border-style: solid;
       border-radius: 5px;
       border-color:#ccc;
       position: center;
       text-align: left;
       width:100%;
-      padding:10px;
+      padding:0.625rem;
     }
     
     /* Animated Text */
@@ -107,8 +130,8 @@ body{
     h1 { 
       font: bold 300% Consolas, Monaco, monospace;
       border-right: .1em solid black;
-      width: 16.5em; 
-      width: 34ch;
+      width: 16.5rem; 
+      width: 90%;
       margin: 2em 1em;
       white-space: nowrap;
       overflow: hidden;
@@ -117,59 +140,38 @@ body{
     }
 
     .page-banner h2{
-      margin-top:10px;
-      margin-bottom:10px;
+      margin-top:0.625rem;
+      margin-bottom:0.625rem;
       font-family: Rock Salt, sans-serif;
       font-size: 5.50rem;
       font-style: normal;
       font-variant: normal;
       font-weight: 700;
-      line-height: 26.4px;
+      line-height: 1.65rem;
       color: #e8491d;
     }
 
-    @media (min-width: 150px) {
-      :root{
-        font-size: 6px;
-      }
-    }
-    @media (min-width: 780px) {
-      :root{
-        font-size: 9px;
-      }
-    }
-    @media (min-width: 990px) {
-      :root{
-        font-size: 12px;
-      }
-    }
-    @media (min-width: 1200px) {
-      :root{
-        font-size: 16px;
-      }
-    }   
-       
     /* About */
     .page-about{
       background-color: #333;
       color:#ccc;
-      padding: 40px 0 40px 0;
+      padding: 2.5rem 0 2.5rem 0;
       position: relative;
     }
 
     .about-title{
-      margin-top:60px;
-      margin-bottom:40px;
+      margin-top:3.75rem;
+      margin-bottom:2.5rem;
       color:#ccc;
       position: relative;
     }
 
     .about-title h1 { 
-      font: bold 300% Consolas, Monaco, monospace;
+      font: bold 250% Consolas, Monaco, monospace;
       border-right: .1em solid black;
       width: 16.5em; 
-      width: 9ch;
-      margin: 80px 0 10px 0;
+      width: 35%;
+      margin: 5rem 0 0.625rem 0;
       white-space: nowrap;
       overflow: hidden;
       -webkit-animation: typing 2s steps(21, end),
@@ -177,8 +179,8 @@ body{
     }
 
     .about-content {
-      margin-top:80px;
-      margin-bottom:100px;
+      margin-top:5rem;
+      margin-bottom:6.25rem;
       position: center;
       text-align: left;
       width:100%;
@@ -186,7 +188,7 @@ body{
     }
 
     .about-content p {
-      font-size: 1.25rem;     
+      font-size: 20px;     
     }   
 
     img{
@@ -198,23 +200,23 @@ body{
     /* Skill Boxes */
     .page-skills {
       background-color: #fff;
-      padding: 40px 0 40px 0;
+      padding: 2.5rem 0 2.5rem 0;
       position: relative;
     }
 
     .skills-title{
-      margin-top:60px;
-      margin-bottom:40px;
+      margin-top:3.75rem;
+      margin-bottom:2.5rem;
       color:#333;
       position: relative;
     }
     
     .skills-title h1 { 
-      font: bold 300% Consolas, Monaco, monospace;
+      font: bold 250% Consolas, Monaco, monospace;
       border-right: .1em solid black;
       width: 16.5em; 
-      width: 7ch;
-      margin: 80px 0 10px 0;
+      width: 17%;
+      margin: 5rem 0 0.625rem 0;
       white-space: nowrap;
       overflow: hidden;
       -webkit-animation: typing 2s steps(21, end),
@@ -225,36 +227,24 @@ body{
       border-style: solid;
       border-radius: 5px;
       border-color:#cccccc;
-      margin:5px;
-      padding:5px;
+      margin:0.35rem;
+      padding:0.35rem;
       float:left;
       text-align: center;
-      padding:10px;
+      padding:0.625rem;
     }
-
-    @media (max-width: 960px) {
-      .box {
-        margin:50px;
-      }
-      }
 
     .box h2{
       font-weight: bolder;
-      margin-top:10px;
-      font-size:1.25rem;
-      margin-bottom:10px;
-    }
-
-    .box p{
-      margin-top:10px;
-      margin-bottom:10px;
-      font-size:1rem;
+      margin-top:0.625rem;
+      font-size:20px;
+      margin-bottom:0.625rem;
     }
 
     .box ul{
-      margin-top:10px;
-      margin-bottom:10px;
-      font-size:1rem;
+      margin-top:0.625rem;
+      margin-bottom:0.625rem;
+      font-size:16px;
       text-align: left;
     }
 
@@ -265,23 +255,23 @@ body{
     /* Gallery Banner */
     .page-projects {
       background-color: #333;
-      padding: 40px 0 40px 0;
+      padding: 2.5rem 0 2.5rem 0;
       position: relative;
     }
 
     .projects-title{
-      margin-top:60px;
-      margin-bottom:10px;
+      margin-top:3.75rem;
+      margin-bottom:0.625rem;
       color:#ccc;
       position: relative;
     }
 
     .projects-title h1 { 
-      font: bold 300% Consolas, Monaco, monospace;
+      font: bold 250% Consolas, Monaco, monospace;
       border-right: .1em solid black;
       width: 16.5em; 
-      width: 9ch;
-      margin: 80px 0 10px 0;
+      width: 12%;
+      margin: 5rem 0 0.625rem 0;
       white-space: nowrap;
       overflow: hidden;
       -webkit-animation: typing 2s steps(21, end),
@@ -308,7 +298,7 @@ body{
       padding: 5px;
       transition: all 0.5s;
       cursor: pointer;
-      margin: 10px;
+      margin: 0.625rem;
     }
 
     .link:hover {
@@ -322,13 +312,13 @@ body{
     .page-tools{
       background:#333;
       color:#ccc;
-      padding: 40px 0 40px 0;
+      padding: 2.5rem 0 2.5rem 0;
       position: relative;
     }
 
     .tools-title{
-      margin-top:60px;
-      margin-bottom:40px;
+      margin-top:3.75rem;
+      margin-bottom:2.5rem;
       color:#ccc;
       position: relative;
     }
@@ -337,8 +327,8 @@ body{
       font: bold 250% Consolas, Monaco, monospace;
       border-right: .1em solid black;
       width: 16.5em; 
-      width: 6ch;
-      margin: 80px 0 10px 0;
+      width: 17%;
+      margin: 5rem 0 0.625rem 0;
       white-space: nowrap;
       overflow: hidden;
       -webkit-animation: typing 2s steps(21, end),
@@ -347,7 +337,7 @@ body{
 
     .tools{
       margin:0px;
-      padding:10px 0px 30px 0px;
+      padding: 0.625rem 0 1.875rem 0;
       float:left;
       text-align: center;
      
@@ -358,10 +348,11 @@ body{
       margin: 0;
       border: 0;
       padding: 0;
-      font-size:1rem;
+      font-size:2rem;
     }
 
     .tools i{
+      font-size: 7rem;
       margin: 0;
       padding: 0;
     }
@@ -369,13 +360,13 @@ body{
     /* Gallery Banner */
     .page-gallery {
       background-color: #333;
-      padding: 40px 0 40px 0;
+      padding: 2.5rem 0 2.5rem 0;
       position: relative;
     }
     
     /* Footer */
     footer{
-      padding: 80px 20px 80px 20px;
+      padding: 5rem 1.25rem 5rem 1.25rem;
       color:#e8491d;
       background-color:#333;
       text-align: center;
@@ -386,8 +377,8 @@ body{
       font: bold 250% Consolas, Monaco, monospace;
       border-right: .1em solid black;
       width: 16.5em; 
-      width: 16ch;
-      margin: 40px 0 10px 0;
+      width: 12%;
+      margin: 5rem 0 0.625rem 0;
       white-space: nowrap;
       overflow: hidden;
       -webkit-animation: typing 2s steps(21, end),

@@ -49,15 +49,14 @@ html,body{
     
     /* Header **/
     header{
-      position: sticky;
       top: 0;
+      position: fixed;
       background:#333;
-      color:#ffffff;
+      color:#fff;
       width:100%;
-      padding-top:1.1rem;
       min-height:70px;
       border-bottom:#e8491d 3px solid;
-      padding-bottom:20px;
+      padding-top:1.1rem;
       z-index: 999;
     }
 
@@ -350,11 +349,11 @@ html,body{
       margin: 0;
       border: 0;
       padding: 0;
-      font-size:2rem;
+      font-size:1rem;
     }
 
     .tools i{
-      font-size: 7rem;
+      font-size: 5rem;
       margin: 0;
       padding: 0;
     }
@@ -375,21 +374,14 @@ html,body{
       border-top:#e8491d 3px solid;
     }
 
-    footer h1 { 
-      font: bold 450% Consolas, Monaco, monospace;
-      border-right: .1em solid black;
-      width: 16.5em; 
-      width: 12%;
-      margin: 5rem 0 0.625rem 0;
-      white-space: nowrap;
-      overflow: hidden;
-      -webkit-animation: typing 2s steps(21, end),
-                 blink-caret .5s step-end infinite alternate;
-    }
-
+    footer h2{
+      color: #fff;
+      font-size: 3rem;
+}
+    
     footer a{
           color: #e8491d;
-          font-size: 1.5rem;
+          font-size: 2rem;
     }
 
     footer a:hover {
@@ -399,6 +391,7 @@ html,body{
     }
 
     footer i{
+      font-size: 2rem;
       padding:3px;
     }
 

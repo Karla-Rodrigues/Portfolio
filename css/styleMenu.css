@@ -12,7 +12,7 @@
     .menuToggle input
     {
 	display: flex;
-	width: 2.5rem;
+	width: 40px;
 	height: 32px;
 	position: absolute;
 	cursor: pointer;
@@ -66,8 +66,8 @@
     .menuCel
     {
 	position: absolute;
-	width: 175px;
-	height: 500px;
+	width: 14rem;
+	height: 50rem;
 	box-shadow: 0 0 10px #85888C;
 	margin: -50px 0 0 -50px;
 	padding: 50px;
@@ -81,20 +81,22 @@
     
     .menuCel li
     {
-	    font-size: 20px;
-	padding: 10px;
+	font-size: 1.25rem;    
+	padding: 1rem; 
 	transition-delay: 2s;
     }
 
     .menuWeb
     {
+	position: sticky;
 	top: -10px;    
 	visibility: hidden;
 	background-color: transparent;
       color:#ccc;
       padding: 5px;
       position: relative;
-	float: right
+	float: right;
+	z-index: 999;
     }
     
     .menuToggle input:checked ~ ul
@@ -109,6 +111,4 @@
 	.menuWeb {
 		visibility: visible;
 	  }
-	}
-
-   
+	}  

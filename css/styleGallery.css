@@ -66,6 +66,24 @@
 		float: top;
 	}
 	.mdesc {
+		padding-top: 40%;
+		padding-left: 20px;
+		text-align: left;
+	}
+	.marrow_previous,
+	.marrow_next {
+	width: 50%;
+	align-self: bottom;
+	}
+	}
+	
+@media (max-width: 780px) {
+	.mpic {
+		height: 50%;
+		width: 100%;
+		float: top;
+	}
+	.mdesc {
 		padding-top: 80%;
 		padding-left: 0;
 		text-align: left;
@@ -75,7 +93,7 @@
 	width: 50%;
 	align-self: bottom;
 	}
-      }
+	}
 
 #m1, #m2, #m3, #m4, #m5, #m6, #m7, #m8, #m9 {
 	background-repeat: no-repeat;

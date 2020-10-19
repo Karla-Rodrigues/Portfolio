@@ -368,7 +368,7 @@ html,body{
     
     /* Footer */
     footer{
-      padding: 5rem 1.25rem 5rem 1.25rem;
+      padding: 2rem 1.25rem 0 1.25rem;
       color:#e8491d;
       background-color:#333;
       text-align: center;
@@ -382,7 +382,7 @@ html,body{
     
     footer a{
           color: #e8491d;
-          font-size: 2rem;
+          font-size: 1.75rem;
     }
 
     footer a:hover {
@@ -392,7 +392,7 @@ html,body{
     }
 
     footer i{
-      font-size: 2rem;
+      font-size: 1.75rem;
       padding:3px;
     }
 

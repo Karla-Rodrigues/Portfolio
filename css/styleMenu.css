@@ -66,8 +66,8 @@
     .menuCel
     {
 	position: absolute;
-	width: 28rem;
-	height: 80rem;
+	width: 40rem;
+	height: 100rem;
 	box-shadow: 0 0 10px #85888C;
 	margin: -50px 0 0 -50px;
 	padding: 50px;
@@ -81,14 +81,14 @@
 
     .menuCel li
     {
-	font-size: 3rem;    
+	font-size: 4rem;    
 	padding: 2rem 0; 
 	transition-delay: 2s;
     }
     
     .menuCel a
     {
-	font-size: 3rem;    
+	font-size: 4rem;    
 	padding: 2rem 0; 
 	transition-delay: 2s;
     }

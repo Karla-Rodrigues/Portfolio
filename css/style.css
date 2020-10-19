@@ -87,15 +87,16 @@ html,body{
     .page-banner{
       background-color: #333;
       color:#ccc;
-      padding: 2.5rem 0 2.5rem 0;
+      padding: 11rem 0 2.5rem 0;
       position: relative;
     }
 
     .page-banner-image {
+      background-image: url("../images/skyline.jpg");
       opacity: .33;
       background-size: cover;
       position: absolute;
-      top: 0;
+      top: 5rem;
       bottom: 0;
       left: 0;
       right: 0;
@@ -103,7 +104,7 @@ html,body{
 
     .page-banner-title {
       opacity: 0.99;
-      margin-top:20.6rem;
+      margin-top:22rem;
       position: center;
       text-align: center;
       width:100%;

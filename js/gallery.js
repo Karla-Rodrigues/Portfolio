@@ -10,14 +10,14 @@ $(document).ready(function () {
 
       console.log("started");
 
-      long_main.css("width", main_width * 9.05);
-      item.css("width", long_main.width() / 9);
+      long_main.css("width", main_width * 12.05);
+      item.css("width", long_main.width() / 12);
 
       $(".main_next").click(function () {
-            if (slide_number < 8) {
+            if (slide_number < 10) {
                   slide_number++
 
-                  if (slide_number == 8) {
+                  if (slide_number == 10) {
                         $(".main_next").animate({ opacity: 0 });
                   } else {
                         $(".main_next").animate({ opacity: 1 });

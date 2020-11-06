@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
 :root{
   font-size: 16px;
 }
@@ -130,7 +132,7 @@ html,body{
     
     h1 { 
       font: bold 300% Consolas, Monaco, monospace;
-      border-right: .1em solid black;
+      border-right: .1em solid #e8491d;
       width: 16.5rem; 
       width: 90%;
       margin: 2em 1em;
@@ -140,16 +142,16 @@ html,body{
                  blink-caret .5s step-end infinite alternate;
     }
 
-    .page-banner h2{
+    .page-banner h5{
       margin-top:0.625rem;
       margin-bottom:0.625rem;
-      font-family: Rock Salt, sans-serif;
-      font-size: 5.50rem;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 700;
+      font-family: 'Fredericka the Great', cursive;
+      font-size: 8.50rem;
+     
+      font-weight: 500;
+      text-shadow: 2px 2px #e8491d;
       line-height: 1.65rem;
-      color: #e8491d;
+      color: #ccc;
     }
 
     /* About */
@@ -169,7 +171,7 @@ html,body{
 
     .about-title h1 { 
       font: bold 450% Consolas, Monaco, monospace;
-      border-right: .1em solid black;
+      border-right: .1em solid #e8491d;
       width: 16.5em; 
       width: 60%;
       margin: 5rem 0 0.625rem 0;
@@ -214,7 +216,7 @@ html,body{
     
     .skills-title h1 { 
       font: bold 450% Consolas, Monaco, monospace;
-      border-right: .1em solid black;
+      border-right: .1em solid #e8491d;
       width: 16.5em; 
       width: 35%;
       margin: 5rem 0 0.625rem 0;
@@ -270,7 +272,7 @@ html,body{
 
     .react-title h1 { 
       font: bold 250% Consolas, Monaco, monospace;
-      border-right: .1em solid black;
+      border-right: .1em solid #e8491d;
       width: 12.5em; 
       width: 40%;
       margin: 5rem 0 0.625rem 0;
@@ -296,7 +298,7 @@ html,body{
 
     .projects-title h1 { 
       font: bold 450% Consolas, Monaco, monospace;
-      border-right: .1em solid black;
+      border-right: .1em solid #e8491d;
       width: 16.5em; 
       width: 40%;
       margin: 5rem 0 0.625rem 0;
@@ -353,7 +355,7 @@ html,body{
 
     .tools-title h1 { 
       font: bold 450% Consolas, Monaco, monospace;
-      border-right: .1em solid black;
+      border-right: .1em solid #e8491d;
       width: 16.5em; 
       width: 25%;
       margin: 5rem 0 0.625rem 0;

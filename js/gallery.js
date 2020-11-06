@@ -72,7 +72,7 @@ $(document).ready(function () {
       var slide_numberl = 0;
 
 
-      long_listl.css("width", list_widthl * 3.05);
+      long_listl.css("width", list_widthl * 3.10);
       iteml.css("width", long_listl.width() / 9);
 
       $(".list_next").click(function () {

@@ -100,17 +100,18 @@
 	background-position: center;
 	background-size: cover;
 }
-#m1{background-image: url("../images/mangiare_React.png");}
-#m2{background-image: url("../images/NasaApp.png");}
-#m3{background-image: url("../images/ShoppingList.png");}
-#m4{background-image: url("../images/nasa_jquery.png");}
-#m5{background-image: url("../images/exercise_JS.png");}
-#m6{background-image: url("../images/mangiare_HTML.png");}
-#m7{background-image: url("../images/Gallaway_CSharp.png");}
-#m8{background-image: url("../images/Cashier_Oracle.png");}
-#m9{background-image: url("../images/excelDigital_Laravel.png");}
-#m10{background-image: url("../images/Gallaway_WordPress.png");}
-#m11{background-image: url("../images/nomad_WordPress.png");}
+#m1{background-image: url("../images/KeepMovies.png");}
+#m2{background-image: url("../images/mangiare_React.png");}
+#m3{background-image: url("../images/NasaApp.png");}
+#m4{background-image: url("../images/ShoppingList.png");}
+#m5{background-image: url("../images/nasa_jquery.png");}
+#m6{background-image: url("../images/exercise_JS.png");}
+#m7{background-image: url("../images/mangiare_HTML.png");}
+#m8{background-image: url("../images/Gallaway_CSharp.png");}
+#m9{background-image: url("../images/Cashier_Oracle.png");}
+#m10{background-image: url("../images/excelDigital_Laravel.png");}
+#m11{background-image: url("../images/Gallaway_WordPress.png");}
+
 /* ------------------------------- */ 
 .List{
 	width: 100%px;
